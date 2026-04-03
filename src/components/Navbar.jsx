@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import useStore from '../store/useStore'
-import profilePic from '../../src/public/profile.jpeg' // Adjust the path if necessary
+import profilePic from '../../src/public/profile.jpeg' 
 
 const LINKS = [
   { id: 'home', label: 'Home' },
@@ -82,7 +82,7 @@ export default function Navbar() {
               className="w-9 h-9 rounded-xl flex items-center justify-center text-gray-500 dark:text-gray-400 hover:text-purple-500 dark:hover:text-purple-400 hover:bg-purple-50 dark:hover:bg-purple-950/30 transition-all duration-200">
               {isDark ? <SunIcon /> : <MoonIcon />}
             </button>
-            {/* Changed to link to #contact section instead of mailto */}
+
             <a
               href="#contact"
               onClick={e => {
@@ -114,7 +114,6 @@ export default function Navbar() {
                 activeSection === l.id ? 'g-text bg-purple-50 dark:bg-purple-950/40' : 'text-gray-600 dark:text-gray-300'
               }`}>{l.label}</button>
           ))}
-          {/* Changed to link to #contact section instead of mailto */}
           <a
             href="#contact"
             onClick={e => {

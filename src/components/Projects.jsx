@@ -2,6 +2,15 @@ import { useReveal } from '../hooks/useScrollReveal'
 
 const PROJECTS = [
   {
+    emoji: '📊', title: 'Melody AI Dashboard', sub: 'Analytics Dashboard',
+    desc: 'Dynamic analytics dashboard with interactive Chart.js/D3.js visualizations and SSR-enabled performance.',
+    demo: 'https://melodyai.cloud',
+    tags: ['Next.js', 'TypeScript', 'Chart.js', 'D3.js', 'Tailwind CSS'],
+    highlights: ['Interactive charts', 'Real-time data', 'SSR optimized', 'Dark mode'],
+    featured: false,
+    color: 'from-fuchsia-500 to-pink-500',
+  },
+  {
     emoji: '📹', title: 'Video Calling App', sub: 'Real-Time Communication Platform',
     desc: 'Multi-user real-time video platform with low-latency streaming, dynamic session management, and secure authentication.',
     demo: 'https://video-calling-app-frontend-gb74.onrender.com',
@@ -27,15 +36,6 @@ const PROJECTS = [
     highlights: ['Group & DM chat', 'Presence indicators', 'Media sharing', 'Scalable state'],
     featured: false,
     color: 'from-violet-500 to-purple-600',
-  },
-  {
-    emoji: '📊', title: 'Melody AI Dashboard', sub: 'Analytics Dashboard',
-    desc: 'Dynamic analytics dashboard with interactive Chart.js/D3.js visualizations and SSR-enabled performance.',
-    demo: 'https://melodyai-iota.vercel.app/',
-    tags: ['Next.js', 'TypeScript', 'Chart.js', 'D3.js', 'Tailwind CSS'],
-    highlights: ['Interactive charts', 'Real-time data', 'SSR optimized', 'Dark mode'],
-    featured: false,
-    color: 'from-fuchsia-500 to-pink-500',
   },
   {
     emoji: '✈️', title: 'Travel-Wix', sub: 'Travel Landing Page',
